@@ -42,14 +42,21 @@ Currently all development is managed on github via the issues and the direction 
 Research in Motion.  A more clear project plan and more open communication will be needed by this project to abide by 
 the apache guidelines.
 
-Transition to Apache
-===================
-
 Metriocracy
 ===========
 
+Ripple has been very accepting of letting in patches from 3rd party 
+developers and has been functioning like apache in requiring a CLA
+for code to be pulled in. The core team is hoping to grow and include more 
+developers. 
+
 Community
 =========
+
+The development community of Ripple is a small but tight knit group but
+the users of the project number more than 30,000. With the launch of
+emulate.phonegap.com (which is a portal for installing ripple) we are
+getting approx 5000 hits a day to that site.
 
 
 Core Developers
@@ -61,6 +68,10 @@ Core Developers
 
 Alignment
 =========
+
+Apache is a good match for this project because of it's close ties
+to the Cordova Project. Cordova has been very successful as a project
+since joining Apache and we can see that 
 
 Known Risks
 ===========
@@ -74,6 +85,11 @@ community is already present to keep the tool up to date.
 
 Inexperience with Open Source
 -----------------------------
+
+Ripple has been opensourced at RIM for the last year.  All of the work
+is done in the open. There are a few extra measures we need to learn
+how to take (mailing lists, project planning) for working in the open
+more but the team has a good understanding of what needs to happen.
 
 Homogenous Developers
 ----------------------
@@ -159,4 +175,10 @@ Initial Committers
   * Dan Silivestru (dan.silivestru@gmail.com)
   * Brent Lintner (brent.lintner@gmail.com)
   * Fil Maj (fil@adobe.com)
-  * Micheal Brooks
+  * Micheal Brooks (mbrooks@adobe.com)
+
+Sponsors
+========
+
+Champion: Ross Gardler (rgardler@opendirective.com)
+Mentor: Jukka Zitting (jukka.zitting@gmail.com)
