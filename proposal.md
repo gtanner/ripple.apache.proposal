@@ -4,9 +4,9 @@ Ripple, A Mobile Environment Emulator
 Abstract
 ========
 
-Ripple is a browser based mobile phone emulator to aid in the development
+Ripple is a browser based mobile phone emulator designed to aid in the development
 of HTML5 based mobile applications.  Ripple is a cross platform and cross
-runtime based tool. It currently supports such runtimes as Cordova, WebWorks
+runtime testing/debugging tool. It currently supports such runtimes as Cordova, WebWorks
 and the Mobile Web.
 
 Proposal
@@ -19,11 +19,12 @@ Background
 ==========
 
 Ripple started as a product of tinyHippos who was later aquired by Research in Motion.  Ripple was then open sourced
-under the Apache license and hosted on the blackberry github account. 
+under the Apache 2.0 License and hosted on the blackberry github account (http://github.com/blackberry/Ripple-UI). 
 
-Ripple is a browser based mobile phone emulator that runs as a chrome extension.  It fills the gap for developers
-needing to quickly edit-refresh-continue while working on web content that will be embedded and distributed as a native 
-application.
+Ripple is a browser based mobile phone emulator that runs as a chrome extension.  It fills the gap for developers between
+developing on their desktops/laptops and having to test on platform specific emulators or physical devices. Ripple allows develors
+to quickly edit-refresh-test in Chrome on their desktops/laptops while working on web content that will be embedded and distributed 
+as a native application.
 
 Rationale
 =========
@@ -62,9 +63,7 @@ getting approx 5000 hits a day to that site.
 Core Developers
 ===============
 
-- Gord Tanner 
-- Dan Silivestru
-- Brent Lintner
+See Inital Committers below
 
 Alignment
 =========
@@ -132,28 +131,35 @@ have an apache header on them with a copyright of Research in motion (https://gi
 Also we have some images that are not licensed under Apache (see https://github.com/blackberry/Ripple-UI/blob/master/ext/assets/images/README.md)
 The images are of some BlackBerry phones but can be removed if this is an issue.
 
+All external contributions to the project currently require that an ICLA or CCLA be signed by the contributor. Links to the documents can be found below:
+
+  * http://www.blackberry.com/legal/pdfs/webworks/Research_In_Motion_Limited_CCLA_021811_cl.pdf
+  * http://www.blackberry.com/legal/pdfs/webworks/Research_In_Motion_Limited_ICLA_021811_cl.pdf
+
+We believe the CLAs we have on file will allow RIM to sign a Software Grant. (SGA)
+
 External Dependencies
 ======================
 
-- 3d.js (http://wiioperasdk.com)
-- Math.uuid.js (http://www.broofa.com)
-- OpenLayers.js (ttp://svn.openlayers.org/trunk/openlayers)
-- almond.js (http://github.com/jrburke/almond)
-- draw.js (http://wiioperasdk.com)
-- jWorkflow (http://github.com/tinyhippos/jworkflow)
-- jXHR.js (https://github.com/blackberry/Ripple-UI/blob/master/thirdparty/jXHR.js)
-- jasmine (https://github.com/pivotal/jasmine)
-- jquery (http://jquery.com)
-- jquery.tooltip (http://bassistance.de/jquery-plugins/jquery-plugin-tooltip/)
-- jQuery UI (http://jqueryui.com)
-- node (http://nodejs.org)
-- jake (git://github.com/mde/jake.git)
-- jshint (http://github.com/jshint/node-jshint)
-- csslint (http://github.com/stubbornella/csslint.git)
-- uglify-js (git@github.com:mishoo/UglifyJS.git)
-- connect (git://github.com/senchalabs/connect.git)
-- argsparser (git://github.com/kof/node-argsparser.git)
-- jsdom (http://github.com/tmpvar/jsdom.git)
+- 3d.js (http://wiioperasdk.com) - Custom License: http://wiioperasdk.com/sdk/3d.js
+- Math.uuid.js (http://www.broofa.com) - Dual licensed under the MIT and GPL licenses: http://www.broofa.com/Tools/Math.uuid.js
+- OpenLayers.js (ttp://svn.openlayers.org/trunk/openlayers) - Licensed under Clear BSD: http://svn.openlayers.org/trunk/openlayers/license.txt
+- almond.js (http://github.com/jrburke/almond) - Licensed under MIT: https://github.com/jrburke/almond/blob/master/LICENSE
+- draw.js (http://wiioperasdk.com) - Custom License: http://wiioperasdk.com/sdk/draw.js 
+- jWorkflow (http://github.com/tinyhippos/jworkflow) - Licensed under MIT: http://www.opensource.org/licenses/mit-license.php
+- jXHR.js (https://github.com/blackberry/Ripple-UI/blob/master/thirdparty/jXHR.js) - Licensed under MIT: http://www.opensource.org/licenses/mit-license.php
+- jasmine (https://github.com/pivotal/jasmine) - Licensed under MIT: http://www.opensource.org/licenses/mit-license.php
+- jquery (http://jquery.com) - Dual licensed under MIT and GPL: http://jquery.org/license (includes sizzle.js, now licensed under MIT: https://github.com/jquery/sizzle/blob/master/LICENSE)
+- jquery.tooltip (http://bassistance.de/jquery-plugins/jquery-plugin-tooltip/) - Dual Licensed under MIT and GPL: http://www.opensource.org/licenses/mit-license.php http://www.gnu.org/licenses/gpl.html
+- jQuery UI (http://jqueryui.com) - Licensed under MIT: http://www.opensource.org/licenses/mit-license.php
+- node (http://nodejs.org) - Dependant on node.js, but we do not redistribute the source or binaries
+- jake (git://github.com/mde/jake.git) - Dependant on jake, but we do not redistribute the source or binaries
+- jshint (http://github.com/jshint/node-jshint) - Licensed under MIT: http://www.opensource.org/licenses/mit-license.php
+- csslint (http://github.com/stubbornella/csslint.git) - License information here: https://github.com/stubbornella/csslint/blob/master/LICENSE
+- uglify-js (git@github.com:mishoo/UglifyJS.git) - Licensed under BSD: https://github.com/mishoo/uglifyjs
+- connect (git://github.com/senchalabs/connect.git) - Licensed under MIT: https://github.com/senchalabs/connect/blob/master/LICENSE
+- argsparser (git://github.com/kof/node-argsparser.git) - No license specified: https://github.com/kof/node-argsparser
+- jsdom (http://github.com/tmpvar/jsdom.git) - License information here: https://github.com/tmpvar/jsdom/blob/master/LICENSE.txt
 
 Required Resources
 ==================
@@ -176,6 +182,7 @@ Initial Committers
   * Brent Lintner (brent.lintner@gmail.com)
   * Fil Maj (fil@adobe.com)
   * Micheal Brooks (mbrooks@adobe.com)
+  * Mark Dineen (mark@dineen.biz)
 
 Sponsors
 ========
