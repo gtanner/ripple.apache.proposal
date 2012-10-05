@@ -189,6 +189,6 @@ Initial Committers
 Sponsors
 ========
 
-Champion: Ross Gardler (rgardler@opendirective.com)
-Mentor: Jukka Zitting (jukka.zitting@gmail.com)
-Mentor: Christian Grobmeier (grobmeier@gmail.com)
+* Champion: Ross Gardler (rgardler@opendirective.com)
+* Mentor: Jukka Zitting (jukka.zitting@gmail.com)
+* Mentor: Christian Grobmeier (grobmeier@gmail.com)
