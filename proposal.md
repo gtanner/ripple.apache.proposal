@@ -18,7 +18,7 @@ will be accomplished by quickly keeping up with the mobile web platforms as they
 Background
 ==========
 
-Ripple started as a product of tinyHippos who was later aquired by Research in Motion.  Ripple was then open sourced
+Ripple started as a product of tinyHippos and was aquired by Research in Motion in late March 2011.  Ripple was then open sourced
 under the Apache 2.0 License and hosted on the blackberry github account (http://github.com/blackberry/Ripple-UI). 
 
 Ripple is a browser based mobile phone emulator that runs as a chrome extension.  It fills the gap for developers between
@@ -30,11 +30,12 @@ Rationale
 =========
 
 The project is currently opensourced and managed by a small team at Research in Motion.  We are starting to have some
-more community engagement but the project needs more.  Our team overlaps highly with the Cordova group and watching
-the success for that project in Apache as inspired us to put ripple there as well.
+more community engagement but the project could benefit from greater exposure in the opne source cummunity.  Our team 
+overlaps highly with the Cordova group. Watching the success for that project in Apache has inspired us to contribute
+Ripple to the ASF as well.
 
-Ripple fills a large gap in the toolset for most mobile web developers between development on the desktop and the
-phone.  
+Ripple fills a large gap in the toolset for most mobile web developers between development on the desktop and testing
+on the physical device.  
 
 Current Status
 ==============
@@ -55,7 +56,7 @@ Community
 =========
 
 The development community of Ripple is a small but tight knit group but
-the users of the project number more than 30,000. With the launch of
+the users of the project number more than 40,000. With the launch of
 emulate.phonegap.com (which is a portal for installing ripple) we are
 getting approx 5000 hits a day to that site.
 
@@ -63,14 +64,14 @@ getting approx 5000 hits a day to that site.
 Core Developers
 ===============
 
-See Inital Committers below
+See Inital Committers below.
 
 Alignment
 =========
 
-Apache is a good match for this project because of it's close ties
+Apache is a good match for this project due to it's close ties
 to the Cordova Project. Cordova has been very successful as a project
-since joining Apache and we can see that 
+since joining Apache and we hope Ripple will follow suit. 
 
 Known Risks
 ===========
@@ -78,8 +79,8 @@ Known Risks
 Orphaned Products
 -----------------
 
-Ripple is still core to the toolset at RIM and the Cordova / Phonegap community has embrased ripple into their tooling 
-as well. This project has been under active development for 2 years and a lot of vested interest from both RIM and the
+Ripple is a core component to the toolset at RIM and the Cordova / Phonegap community has embrased ripple into their tooling 
+as well. This project has been under active development for 3 years and a lot of vested interest from both RIM and the
 community is already present to keep the tool up to date.
 
 Inexperience with Open Source
@@ -87,8 +88,9 @@ Inexperience with Open Source
 
 Ripple has been opensourced at RIM for the last year.  All of the work
 is done in the open. There are a few extra measures we need to learn
-how to take (mailing lists, project planning) for working in the open
-more but the team has a good understanding of what needs to happen.
+how to take (mailing lists, project planning) for working within the ASF community.
+However the team has a good understanding of what needs to happen, as some of the 
+team are also contributers to the Apache Cordova Incubator project.
 
 Homogenous Developers
 ----------------------
@@ -100,7 +102,7 @@ Reliance on Salaried Developers
 -------------------------------
 
 Most of the developers are paid by their employer to contribute to this project but are all highly involved on a personal
-level with this project and the mobile web community. 
+level with this project as well as the mobile web community. 
 
 Relationships with Other Apache Products
 ----------------------------------------
@@ -125,7 +127,7 @@ Source can be found at: https://github.com/blackberry/Ripple-UI
 
 Source and Intellectual Property Submission Plan
 ================================================
-Source is currently licensed via the Apache 2.0 license, so most of that should just transfer over fine.  All files currently
+Source is currently licensed via the Apache 2.0 license which is inline with ASF.  All files currently
 have an apache header on them with a copyright of Research in motion (https://github.com/blackberry/Ripple-UI).
 
 Also we have some images that are not licensed under Apache (see https://github.com/blackberry/Ripple-UI/blob/master/ext/assets/images/README.md)
