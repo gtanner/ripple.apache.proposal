@@ -30,7 +30,7 @@ Rationale
 =========
 
 The project is currently opensourced and managed by a small team at Research in Motion.  We are starting to have some
-more community engagement but the project could benefit from greater exposure in the opne source cummunity.  Our team 
+more community engagement but the project could benefit from greater exposure in the open source cummunity.  Our team 
 overlaps highly with the Cordova group. Watching the success for that project in Apache has inspired us to contribute
 Ripple to the ASF as well.
 
