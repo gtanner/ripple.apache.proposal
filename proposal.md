@@ -179,11 +179,11 @@ Required Resources
 Initial Committers
 ==================
 
-  * Gord Tanner (gtanner@gmail.com)
-  * Dan Silivestru (dan.silivestru@gmail.com)
-  * Brent Lintner (brent.lintner@gmail.com)
-  * Fil Maj (fil@adobe.com)
-  * Micheal Brooks (mbrooks@adobe.com)
+  * Gord Tanner, Research In Motion (gtanner@gmail.com)
+  * Dan Silivestru, Research In Motion (dan.silivestru@gmail.com)
+  * Brent Lintner, Research In Motion (brent.lintner@gmail.com)
+  * Fil Maj, Adobe (fil@adobe.com)
+  * Micheal Brooks, Adobe (mbrooks@adobe.com)
   * Mark Dineen (mark@dineen.biz)
 
 Sponsors
