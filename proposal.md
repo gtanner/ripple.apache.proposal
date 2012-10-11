@@ -192,3 +192,4 @@ Sponsors
 * Champion: Ross Gardler (rgardler@opendirective.com)
 * Mentor: Jukka Zitting (jukka.zitting@gmail.com)
 * Mentor: Christian Grobmeier (grobmeier@gmail.com)
+* Mentor: Andrew Savory (asavory@apache.org)
